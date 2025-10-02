@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chapter 6 Practice</title>
+</head>
+<body>
+    <h1>JavaScript Chapter 6 Practice</h1>
+    <p>Result dekhne ke liye browser mein Right-Click -> Inspect -> Console par jayein.</p>
+
+    <script>
+        console.log("--- Example 1: Postfix Increment (num++) ---");
+        console.log("Usool: Pehle istemal karo, phir barhao.");
+        
+        var apples = 5;
+        console.log("Shuru mein apples: " + apples); // Output: 5
+        
+        // Hum purani value (5) ko 'applesForSale' mein daal rahe hain, aur phir 'apples' ko 6 kar rahe hain.
+        var applesForSale = apples++;
+        
+        console.log("Bechne ke liye apples (purani value): " + applesForSale); // Output: 5
+        console.log("Ab basket mein kitne apples bache: " + apples); // Output: 6
+        console.log("-----------------------------------------");
+
+
+        console.log("--- Example 2: Prefix Increment (++num) ---");
+        console.log("Usool: Pehle barhao, phir istemal karo.");
+        
+        var score = 100;
+        console.log("Pehla score: " + score); // Output: 100
+        
+        // Hum pehle 'score' ko 101 kar rahe hain, aur phir us nayi value ko 'bonusScore' mein daal rahe hain.
+        var bonusScore = ++score;
+        
+        console.log("Bonus milne ke baad naya score: " + bonusScore); // Output: 101
+        console.log("Final total score ab kya hai: " + score); // Output: 101
+        console.log("-----------------------------------------");
+
+
+        console.log("--- Example 3: Postfix Decrement (num--) ---");
+        console.log("Usool: Pehle istemal karo, phir kam karo.");
+        
+        var lives = 3;
+        console.log("Game shuru hone par lives: " + lives); // Output: 3
+        
+        // Hum purani value (3) ko 'livesLeftAfterHit' mein daal rahe hain, aur phir 'lives' ko 2 kar rahe hain.
+        var livesLeftAfterHit = lives--;
+        
+        console.log("Goli lagne ke waqt kitni lives theen: " + livesLeftAfterHit); // Output: 3
+        console.log("Ab kitni lives baaqi hain: " + lives); // Output: 2
+        console.log("-----------------------------------------");
+
+
+        console.log("--- Example 4: Prefix Decrement (--num) ---");
+        console.log("Usool: Pehle kam karo, phir istemal karo.");
+        
+        var itemsInCart = 10;
+        console.log("Cart mein items: " + itemsInCart); // Output: 10
+        
+        // Hum pehle 'itemsInCart' ko 9 kar rahe hain, aur phir us nayi value ko 'itemsAfterRemoval' mein daal rahe hain.
+        var itemsAfterRemoval = --itemsInCart;
+        
+        console.log("Ek item nikalne ke baad cart mein items: " + itemsAfterRemoval); // Output: 9
+        console.log("Cart ka final status: " + itemsAfterRemoval); // Output: 9
+        console.log("-----------------------------------------");
+
+    </script>
+</body>
+</html>

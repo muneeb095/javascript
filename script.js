@@ -7,4 +7,4 @@ var num = +prompt("Give any number")
 var a = 6;
 var b = 8;
 var c = 12;
-alert(a + b + c + num)
+alert(a + b + c + num);
